@@ -6,7 +6,7 @@ suund = 'down'
 
 def elukas_print():
 	elukas = "\033[" + str(y) + ";" + str(x) + "H$"
-	elukas = "\033[91m" + elukas
+	elukas = "\033[91m" + elukas + "\033[0m"
 
 	print elukas
 
